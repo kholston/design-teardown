@@ -1,3 +1,84 @@
 * {
   box-sizing: border-box;
+  border: 1px solid black;
+}
+nav{
+  height: 113px;
+  background-color: #d33a2c;
+}
+#top-articles{
+  height: 863px;
+  background-color: #bc3428;
+  display: flex;
+}
+#top-articles article{
+  flex: 1;
+}
+#more-articles{
+  height: 2232px;
+  margin: 0 auto;
+  width: 1600px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(3,1fr);
+  gap: 20px;
+}
+.colspan-2{
+  grid-column: span 2;
+}
+#member-square,
+#smashing-tv{
+  background-color: #d33a2c;
+}
+#latest,
+#twitter,
+#more-guides{
+  height: 215px;
+  width: 1600px;
+  margin: 0 auto;
+}
+#main-book{
+  height: 1225px;
+  background-color: #2f85ca;
+}
+#personofweek{
+  height: 564px;
+  width: 1600px;
+  margin: 0 auto;
+}
+#community{
+  margin: 0 auto;
+  width: 1600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#community article{
+  height: 652px;
+  width: 50%;
+}
+#secondary-book{
+  height: 472px;
+  background-color: #d33a2c;
+}
+#guides{
+  width: 1600px;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr) 2fr;
+}
+.cards{
+  width: 747px;
+  height: 612px;
+}
+#card-bottom{
+  width: 650px;
+  height: 1000px;
+  grid-column: span 2;
+  grid-row: 3;
+  justify-self: center;
+}footer{
+  height: 1120px;
+  background-color: #d33a2c;
 }
