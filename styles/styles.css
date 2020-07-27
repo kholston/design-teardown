@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
-  border: 1px solid black;
+  text-align: center;
+  font-size: 80px;
+  border: solid;
 }
 nav{
   height: 113px;
@@ -10,6 +12,9 @@ nav{
   height: 863px;
   background-color: #bc3428;
   display: flex;
+}
+.article-2{
+  background-color: #c7372a;
 }
 #top-articles article{
   flex: 1;
