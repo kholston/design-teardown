@@ -2,7 +2,7 @@
   box-sizing: border-box;
   text-align: center;
   font-size: 80px;
-  border: solid;
+  border: 1px solid white;
 }
 nav{
   height: 113px;
@@ -31,10 +31,7 @@ nav{
 .colspan-2{
   grid-column: span 2;
 }
-#member-square,
-#smashing-tv{
-  background-color: #d33a2c;
-}
+
 #latest,
 #twitter,
 #more-guides{
@@ -44,7 +41,7 @@ nav{
 }
 #main-book{
   height: 1225px;
-  background-color: #2f85ca;
+  /* background-color: #2f85ca; */
 }
 #personofweek{
   height: 564px;
@@ -63,7 +60,7 @@ nav{
 }
 #secondary-book{
   height: 472px;
-  background-color: #d33a2c;
+  /* background-color: #d33a2c; */
 }
 #guides{
   width: 1600px;
@@ -71,7 +68,7 @@ nav{
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(2,1fr);
-  grid-template-rows: repeat(2,1fr) 2fr;
+  grid-template-rows: repeat(2,1fr) auto;
 }
 .cards{
   width: 747px;
@@ -86,4 +83,20 @@ nav{
 }footer{
   height: 1120px;
   background-color: #d33a2c;
+}
+
+.first{
+  background-color: #1f1f1f ;
+}
+.second{
+  background-color: #333333;
+}
+.third{
+  background-color: #3d3d3d;
+}
+.fourth{
+  background-color: #525252;
+}
+.fifth{
+  background-color: #666666;
 }
